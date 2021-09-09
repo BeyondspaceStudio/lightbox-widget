@@ -1,0 +1,105 @@
+.lg-white-theme {
+    $lg-theme-color: #fff;
+    $lg-theme-highlight: #333;
+    $lg-thumb-bg: #fcfcfc;
+    $lg-next-prev-bg: rgba(0, 0, 0, 0.03);
+    $lg-next-prev-color: #444;
+    $lg-toolbar-icon-color: #555;
+    $lg-icon-color: #555;
+    $lg-next-prev-hover-color: #000;
+    $lg-toolbar-icon-hover-color: #000;
+    $lg-progress-bar-bg: #999;
+    $lg-progress-bar-active-bg: $lg-theme-highlight;
+
+    .lg-outer .lg-thumb-outer {
+        box-shadow: 0px 0px 6px -3.5px rgba(0, 0, 0, 0.25) inset;
+    }
+    .lg-outer .lg-pager-cont {
+        overflow: visible;
+    }
+    .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
+        box-shadow: 0 0 5px $lg-progress-bar-bg;
+        background-color: $lg-progress-bar-bg;
+    }
+    .lg-outer .lg-pager {
+        background-color: $lg-thumb-bg;
+        border: 1px solid $lg-progress-bar-bg;
+        box-shadow: 0 0 5px $lg-progress-bar-bg;
+
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 5px $lg-progress-bar-bg;
+            background-color: $lg-progress-bar-bg;
+        }
+    }
+    .lg-outer .lg-pager-thumb-cont {
+        background-color: $lg-progress-bar-bg;
+    }
+    .lg-outer .lg-caret {
+        border-top: 10px dashed $lg-progress-bar-bg;
+    }
+    .lg-sub-html {
+        color: #333 !important;
+    }
+    .lg-sub-html a {
+        color: #2f2f2f !important;
+    }
+
+    .lg-backdrop {
+        background-color: $lg-theme-color;
+    }
+    .lg-backdrop {
+        background-color: $lg-theme-color;
+    }
+
+    .lg-thumb-item {
+        &.active,
+        &:hover {
+            border-color: $lg-theme-highlight;
+        }
+    }
+
+    .lg-progress-bar {
+        background-color: $lg-progress-bar-bg;
+        .lg-progress {
+            background-color: $lg-progress-bar-active-bg;
+        }
+    }
+    .lg-outer {
+        .lg-thumb-outer {
+            background-color: $lg-thumb-bg;
+        }
+    }
+    .lg-next,
+    .lg-prev {
+        background-color: $lg-next-prev-bg;
+        color: $lg-next-prev-color;
+        &:hover {
+            color: $lg-next-prev-hover-color;
+        }
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    .lg-toolbar {
+        .lg-icon {
+            color: $lg-toolbar-icon-color;
+            &:hover {
+                color: $lg-toolbar-icon-hover-color;
+            }
+        }
+    }
+    .lg-counter {
+        color: $lg-icon-color;
+    }
+    .lg-outer {
+        .lg-thumb-item {
+            &.active,
+            &:hover {
+                border-color: $lg-theme-highlight;
+            }
+        }
+    }
+}
