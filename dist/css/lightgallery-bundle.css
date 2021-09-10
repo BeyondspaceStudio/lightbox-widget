@@ -1189,18 +1189,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-default-theme-dark .lg-sub-html {
   color: #333 !important;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .lg-default-theme-dark .lg-sub-html a {
-  color: #2f2f2f !important;
+  color: #fff !important;
+}
+
+.lg-default-theme-dark .lg-sub-html * {
+  font-size: inherit;
 }
 
 .lg-default-theme-dark .lg-backdrop {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .lg-default-theme-dark .lg-backdrop {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .lg-default-theme-dark .lg-thumb-item.active, .lg-default-theme-dark .lg-thumb-item:hover {
@@ -1286,10 +1291,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-default-theme-light .lg-sub-html {
   color: #333 !important;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .lg-default-theme-light .lg-sub-html a {
   color: #2f2f2f !important;
+}
+
+.lg-default-theme-light .lg-sub-html * {
+  font-size: inherit;
 }
 
 .lg-default-theme-light .lg-backdrop {
@@ -1387,10 +1397,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-slack-theme-light .lg-sub-html {
   color: #333 !important;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .lg-slack-theme-light .lg-sub-html a {
   color: #2f2f2f !important;
+}
+
+.lg-slack-theme-light .lg-sub-html * {
+  font-size: inherit;
 }
 
 .lg-slack-theme-light .lg-backdrop {
