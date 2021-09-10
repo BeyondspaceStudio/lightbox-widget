@@ -1155,164 +1155,261 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   opacity: 1;
 }
 
-.lg-white-theme .lg-outer .lg-thumb-outer {
+.lg-default-theme-dark .lg-outer .lg-thumb-outer {
   box-shadow: 0px 0px 6px -3.5px rgba(0, 0, 0, 0.25) inset;
 }
 
-.lg-white-theme .lg-outer .lg-pager-cont {
+.lg-default-theme-dark .lg-outer .lg-pager-cont {
   overflow: visible;
 }
 
-.lg-white-theme .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
+.lg-default-theme-dark .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
   box-shadow: 0 0 5px #999;
   background-color: #999;
 }
 
-.lg-white-theme .lg-outer .lg-pager {
+.lg-default-theme-dark .lg-outer .lg-pager {
   background-color: #fcfcfc;
   border: 1px solid #999;
   box-shadow: 0 0 5px #999;
 }
 
-.lg-white-theme .lg-outer .lg-pager:hover, .lg-white-theme .lg-outer .lg-pager:focus {
+.lg-default-theme-dark .lg-outer .lg-pager:hover, .lg-default-theme-dark .lg-outer .lg-pager:focus {
   box-shadow: 0 0 5px #999;
   background-color: #999;
 }
 
-.lg-white-theme .lg-outer .lg-pager-thumb-cont {
+.lg-default-theme-dark .lg-outer .lg-pager-thumb-cont {
   background-color: #999;
 }
 
-.lg-white-theme .lg-outer .lg-caret {
+.lg-default-theme-dark .lg-outer .lg-caret {
   border-top: 10px dashed #999;
 }
 
-.lg-white-theme .lg-sub-html {
+.lg-default-theme-dark .lg-sub-html {
   color: #333 !important;
 }
 
-.lg-white-theme .lg-sub-html a {
+.lg-default-theme-dark .lg-sub-html a {
   color: #2f2f2f !important;
 }
 
-.lg-white-theme .lg-backdrop {
+.lg-default-theme-dark .lg-backdrop {
   background-color: #fff;
 }
 
-.lg-white-theme .lg-backdrop {
+.lg-default-theme-dark .lg-backdrop {
   background-color: #fff;
 }
 
-.lg-white-theme .lg-thumb-item.active, .lg-white-theme .lg-thumb-item:hover {
+.lg-default-theme-dark .lg-thumb-item.active, .lg-default-theme-dark .lg-thumb-item:hover {
   border-color: #333;
 }
 
-.lg-white-theme .lg-progress-bar {
+.lg-default-theme-dark .lg-progress-bar {
   background-color: #999;
 }
 
-.lg-white-theme .lg-progress-bar .lg-progress {
+.lg-default-theme-dark .lg-progress-bar .lg-progress {
   background-color: #333;
 }
 
-.lg-white-theme .lg-outer .lg-thumb-outer {
+.lg-default-theme-dark .lg-outer .lg-thumb-outer {
   background-color: #fcfcfc;
 }
 
-.lg-white-theme .lg-next,
-.lg-white-theme .lg-prev {
+.lg-default-theme-dark .lg-next,
+.lg-default-theme-dark .lg-prev {
   background-color: rgba(0, 0, 0, 0.03);
   color: #444;
 }
 
-.lg-white-theme .lg-next:hover,
-.lg-white-theme .lg-prev:hover {
+.lg-default-theme-dark .lg-next:hover,
+.lg-default-theme-dark .lg-prev:hover {
   color: #000;
 }
 
-.lg-white-theme .lg-next:focus,
-.lg-white-theme .lg-prev:focus {
+.lg-default-theme-dark .lg-next:focus,
+.lg-default-theme-dark .lg-prev:focus {
   outline: none;
   box-shadow: none;
 }
 
-.lg-white-theme .lg-toolbar .lg-icon {
+.lg-default-theme-dark .lg-toolbar .lg-icon {
   color: #555;
 }
 
-.lg-white-theme .lg-toolbar .lg-icon:hover {
+.lg-default-theme-dark .lg-toolbar .lg-icon:hover {
   color: #000;
 }
 
-.lg-white-theme .lg-counter {
+.lg-default-theme-dark .lg-counter {
   color: #555;
 }
 
-.lg-white-theme .lg-outer .lg-thumb-item.active, .lg-white-theme .lg-outer .lg-thumb-item:hover {
+.lg-default-theme-dark .lg-outer .lg-thumb-item.active, .lg-default-theme-dark .lg-outer .lg-thumb-item:hover {
   border-color: #333;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-thumb-outer {
+.lg-default-theme-light .lg-outer .lg-thumb-outer {
   box-shadow: 0px 0px 6px -3.5px rgba(0, 0, 0, 0.25) inset;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-img-wrap {
-  padding-top: 15px;
-}
-
-.lightGallery-slack-theme .lg-outer .lg-pager-cont {
+.lg-default-theme-light .lg-outer .lg-pager-cont {
   overflow: visible;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
+.lg-default-theme-light .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
+  box-shadow: 0 0 5px #999;
+  background-color: #999;
+}
+
+.lg-default-theme-light .lg-outer .lg-pager {
+  background-color: #fcfcfc;
+  border: 1px solid #999;
+  box-shadow: 0 0 5px #999;
+}
+
+.lg-default-theme-light .lg-outer .lg-pager:hover, .lg-default-theme-light .lg-outer .lg-pager:focus {
+  box-shadow: 0 0 5px #999;
+  background-color: #999;
+}
+
+.lg-default-theme-light .lg-outer .lg-pager-thumb-cont {
+  background-color: #999;
+}
+
+.lg-default-theme-light .lg-outer .lg-caret {
+  border-top: 10px dashed #999;
+}
+
+.lg-default-theme-light .lg-sub-html {
+  color: #333 !important;
+}
+
+.lg-default-theme-light .lg-sub-html a {
+  color: #2f2f2f !important;
+}
+
+.lg-default-theme-light .lg-backdrop {
+  background-color: #fff;
+}
+
+.lg-default-theme-light .lg-backdrop {
+  background-color: #fff;
+}
+
+.lg-default-theme-light .lg-thumb-item.active, .lg-default-theme-light .lg-thumb-item:hover {
+  border-color: #333;
+}
+
+.lg-default-theme-light .lg-progress-bar {
+  background-color: #999;
+}
+
+.lg-default-theme-light .lg-progress-bar .lg-progress {
+  background-color: #333;
+}
+
+.lg-default-theme-light .lg-outer .lg-thumb-outer {
+  background-color: #fcfcfc;
+}
+
+.lg-default-theme-light .lg-next,
+.lg-default-theme-light .lg-prev {
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #444;
+}
+
+.lg-default-theme-light .lg-next:hover,
+.lg-default-theme-light .lg-prev:hover {
+  color: #000;
+}
+
+.lg-default-theme-light .lg-next:focus,
+.lg-default-theme-light .lg-prev:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.lg-default-theme-light .lg-toolbar .lg-icon {
+  color: #555;
+}
+
+.lg-default-theme-light .lg-toolbar .lg-icon:hover {
+  color: #000;
+}
+
+.lg-default-theme-light .lg-counter {
+  color: #555;
+}
+
+.lg-default-theme-light .lg-outer .lg-thumb-item.active, .lg-default-theme-light .lg-outer .lg-thumb-item:hover {
+  border-color: #333;
+}
+
+.lg-slack-theme-white .lg-outer .lg-thumb-outer {
+  box-shadow: 0px 0px 6px -3.5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.lg-slack-theme-white .lg-outer .lg-img-wrap {
+  padding-top: 15px;
+}
+
+.lg-slack-theme-white .lg-outer .lg-pager-cont {
+  overflow: visible;
+}
+
+.lg-slack-theme-white .lg-outer .lg-pager-cont.lg-pager-active .lg-pager {
   box-shadow: 0 0 5px #d8d8d8;
   background-color: #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-pager {
+.lg-slack-theme-white .lg-outer .lg-pager {
   background-color: #fcfcfc;
   border: 1px solid #d8d8d8;
   box-shadow: 0 0 5px #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-pager:hover, .lightGallery-slack-theme .lg-outer .lg-pager:focus {
+.lg-slack-theme-white .lg-outer .lg-pager:hover, .lg-slack-theme-white .lg-outer .lg-pager:focus {
   box-shadow: 0 0 5px #d8d8d8;
   background-color: #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-pager-thumb-cont {
+.lg-slack-theme-white .lg-outer .lg-pager-thumb-cont {
   background-color: #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-caret {
+.lg-slack-theme-white .lg-outer .lg-caret {
   border-top: 10px dashed #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-sub-html {
+.lg-slack-theme-white .lg-sub-html {
   color: #333 !important;
 }
 
-.lightGallery-slack-theme .lg-sub-html a {
+.lg-slack-theme-white .lg-sub-html a {
   color: #2f2f2f !important;
 }
 
-.lightGallery-slack-theme .lg-backdrop {
+.lg-slack-theme-white .lg-backdrop {
   background-color: rgba(0, 0, 0, 0.65);
 }
 
-.lightGallery-slack-theme .lg-thumb-item.active, .lightGallery-slack-theme .lg-thumb-item:hover {
+.lg-slack-theme-white .lg-thumb-item.active, .lg-slack-theme-white .lg-thumb-item:hover {
   border-color: #333;
 }
 
-.lightGallery-slack-theme .lg-progress-bar {
+.lg-slack-theme-white .lg-progress-bar {
   background-color: #999;
 }
 
-.lightGallery-slack-theme .lg-progress-bar .lg-progress {
+.lg-slack-theme-white .lg-progress-bar .lg-progress {
   background-color: #333;
 }
 
-.lightGallery-slack-theme .lg-outer {
+.lg-slack-theme-white .lg-outer {
   width: 90vw;
   height: 90vh;
   position: fixed;
@@ -1323,42 +1420,42 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   border-radius: 5px;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-thumb-outer {
+.lg-slack-theme-white .lg-outer .lg-thumb-outer {
   background-color: #fcfcfc;
 }
 
-.lightGallery-slack-theme .lg-next,
-.lightGallery-slack-theme .lg-prev {
+.lg-slack-theme-white .lg-next,
+.lg-slack-theme-white .lg-prev {
   background-color: #fdfdfd;
   color: #555;
   border: 1px solid #d8d8d8;
   border-radius: 50%;
 }
 
-.lightGallery-slack-theme .lg-next:hover,
-.lightGallery-slack-theme .lg-prev:hover {
+.lg-slack-theme-white .lg-next:hover,
+.lg-slack-theme-white .lg-prev:hover {
   color: #444;
   box-shadow: 0px 0px 5px #d8d8d8;
 }
 
-.lightGallery-slack-theme .lg-toolbar {
+.lg-slack-theme-white .lg-toolbar {
   box-shadow: 0px 0px 6px -3.5px rgba(0, 0, 0, 0.25) inset;
   background-color: #fcfcfc;
 }
 
-.lightGallery-slack-theme .lg-toolbar .lg-icon {
+.lg-slack-theme-white .lg-toolbar .lg-icon {
   color: #555;
 }
 
-.lightGallery-slack-theme .lg-toolbar .lg-icon:hover {
+.lg-slack-theme-white .lg-toolbar .lg-icon:hover {
   color: #000;
 }
 
-.lightGallery-slack-theme .lg-counter {
+.lg-slack-theme-white .lg-counter {
   color: #555;
 }
 
-.lightGallery-slack-theme .lg-outer .lg-thumb-item.active, .lightGallery-slack-theme .lg-outer .lg-thumb-item:hover {
+.lg-slack-theme-white .lg-outer .lg-thumb-item.active, .lg-slack-theme-white .lg-outer .lg-thumb-item:hover {
   border-color: #333;
 }
 
