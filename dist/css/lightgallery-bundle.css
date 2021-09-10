@@ -1409,7 +1409,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-slack-theme-light .lg-backdrop {
-  background-color: rgba(67, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .lg-slack-theme-light .lg-thumb-item.active, .lg-slack-theme-light .lg-thumb-item:hover {
